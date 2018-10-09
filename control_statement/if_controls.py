@@ -11,3 +11,12 @@ if year % 4 == 0:
 else:
     print("Year is not leap")
 
+# Nested If
+a = 10
+if a >= 20:
+    print("Condition is true")
+else:
+    if a >= 15:
+        print("Checking second value")
+    else:
+        print("All condition is false")
