@@ -1,5 +1,8 @@
+from commons.utils import Utils as util
+
+
 def print_message(message, line="start"):
-    print(f"==================== {message} operator {line} ===========================\n")
+    util.print_message("{0} operator ".format(message), line)
 
 
 # Arithmetic
