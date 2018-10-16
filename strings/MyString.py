@@ -71,4 +71,23 @@ my_string_message("Slicing", "ends")
 # String Function and methods
 my_string_message("Function and methods")
 
+print('abc'.capitalize())
+print('abc'.upper())
+print('ABC'.lower())
+
+msg = "welcome to vtu"
+substr1 = 'o'
+print(msg.count(substr1, 4, 16))
+substr2 = 't'
+print(msg.count(substr2))
+
+string1 = "Welcome to vtu"
+substr1 = "vtu"
+substr2 = "to"
+substr3 = "of"
+print(string1.endswith(substr1))
+print(string1.endswith(substr2, 2, 14))
+print(string1.endswith(substr3, 2, 17))
+print(string1.endswith(substr3))
+
 my_string_message("Function and methods", "ends")
