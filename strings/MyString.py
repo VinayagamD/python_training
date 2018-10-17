@@ -81,6 +81,8 @@ print(msg.count(substr1, 4, 16))
 substr2 = 't'
 print(msg.count(substr2))
 
+# ends with
+
 string1 = "Welcome to vtu"
 substr1 = "vtu"
 substr2 = "to"
@@ -89,5 +91,17 @@ print(string1.endswith(substr1))
 print(string1.endswith(substr2, 2, 14))
 print(string1.endswith(substr3, 2, 17))
 print(string1.endswith(substr3))
+
+
+# find
+substr1 = "come"
+substr2 = "to"
+print(string1.find(substr1))
+print(string1.find(substr2))
+print(string1.find(substr1, 3, 10))
+print(string1.find(substr2, 17))
+
+# index
+
 
 my_string_message("Function and methods", "ends")
