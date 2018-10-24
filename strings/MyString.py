@@ -81,6 +81,7 @@ print(msg.count(substr1, 4, 16))
 substr2 = 't'
 print(msg.count(substr2))
 
+# endswith
 # ends with
 
 string1 = "Welcome to vtu"
@@ -92,6 +93,40 @@ print(string1.endswith(substr2, 2, 14))
 print(string1.endswith(substr3, 2, 17))
 print(string1.endswith(substr3))
 
+# find
+substr1 = "come"
+substr2 = "to"
+print(string1.find(substr1))
+print(string1.find(substr2))
+print(string1.find(substr1, 3, 10))
+print(string1.find(substr2, 19))
+
+# index
+string1 = "Welcome to world of VTU"
+substr1 = "come"
+substr2 = "of"
+print(string1.index(substr1))
+print(string1.index(substr2))
+print(string1.index(substr1, 3, 10))
+print(string1.index(substr2, 16))
+
+# alphanum
+print(string1.isalnum())
+str1 = "Python47"
+print(str1.isalnum())
+
+# isalpha
+string1 = "HelloPython"   # Even space is not allowed
+print(string1.isalpha())
+string2 = "This is Python2.7.4"
+print(string2.isalpha())
+
+# isdigit
+string1 = "HelloPython"
+print(string1.isdigit())
+string2 = "98564738"
+print(string2.isdigit())
+
 
 # find
 substr1 = "come"
@@ -101,7 +136,55 @@ print(string1.find(substr2))
 print(string1.find(substr1, 3, 10))
 print(string1.find(substr2, 17))
 
-# index
+
+
+
+# isAlpha
+string1 = "HelloPython"  # Even Space is not allowed
+print(string1.isalpha())
+string2 = "This is python"
+print(string2.isalpha())
+
+# isDigit
+print(string1.isdigit())
+string2 = "9342831532"
+print(string2.isdigit())
+
+
+# islower
+string1 = "Hello Python"
+print(string1.islower())
+
+string2 = "welcome to"
+print(string2.islower())
+
+# isupper
+print(string1.isupper())
+string2 = "WELCOME TO"
+print(string2.isupper())
+
+# isspace
+string1 = "   "
+print(string1.isspace())
+string2 = "WELCOME TO WORLD OF PYTHON"
+print(string2.isspace())
+
+# len
+print(len(string1))
+string2 = "WELCOME TO VTU"
+print(len(string2))
+
+# lower
+string1 = "Hello Python"
+print(string1.lower())
+print(string2.lower())
+
+# upper
+print(string1.upper())
+string2 = "welcome to VTU"
+print(string2.upper())
 
 
 my_string_message("Function and methods", "ends")
+
+
