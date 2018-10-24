@@ -81,6 +81,7 @@ print(msg.count(substr1, 4, 16))
 substr2 = 't'
 print(msg.count(substr2))
 
+# endswith
 string1 = "Welcome to vtu"
 substr1 = "vtu"
 substr2 = "to"
@@ -89,5 +90,39 @@ print(string1.endswith(substr1))
 print(string1.endswith(substr2, 2, 14))
 print(string1.endswith(substr3, 2, 17))
 print(string1.endswith(substr3))
+
+# find
+substr1 = "come"
+substr2 = "to"
+print(string1.find(substr1))
+print(string1.find(substr2))
+print(string1.find(substr1, 3, 10))
+print(string1.find(substr2, 19))
+
+# index
+string1 = "Welcome to world of VTU"
+substr1 = "come"
+substr2 = "of"
+print(string1.index(substr1))
+print(string1.index(substr2))
+print(string1.index(substr1, 3, 10))
+print(string1.index(substr2, 16))
+
+# alphanum
+print(string1.isalnum())
+str1 = "Python47"
+print(str1.isalnum())
+
+# isalpha
+string1 = "HelloPython"   # Even space is not allowed
+print(string1.isalpha())
+string2 = "This is Python2.7.4"
+print(string2.isalpha())
+
+# isdigit
+string1 = "HelloPython"
+print(string1.isdigit())
+string2 = "98564738"
+print(string2.isdigit())
 
 my_string_message("Function and methods", "ends")

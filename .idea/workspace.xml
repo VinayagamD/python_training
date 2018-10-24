@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="767a6503-a901-49a9-9660-5e7599fd27bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/pythontraining.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythontraining.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/strings/MyString.py" beforeDir="false" afterPath="$PROJECT_DIR$/strings/MyString.py" afterDir="false" />
@@ -13,7 +14,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/python_training$MyString__1_.coverage" NAME="MyString (1) Coverage Results" MODIFIED="1539952343698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strings" />
     <SUITE FILE_PATH="coverage/pythontraining$MyString.coverage" NAME="MyString Coverage Results" MODIFIED="1539692423762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strings" />
+    <SUITE FILE_PATH="coverage/python_training$MyString.coverage" NAME="MyString Coverage Results" MODIFIED="1539944020679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strings" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="904994946">
@@ -50,6 +53,26 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-2058023280">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="225" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="225" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -76,11 +99,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
               <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <marker date="1539231987856" expanded="true" signature="14:19" ph="..." />
-                <marker date="1539231987856" expanded="true" signature="46:51" ph="..." />
-                <marker date="1539231987856" expanded="true" signature="165:170" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -90,10 +108,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="697">
               <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
-              <folding>
-                <marker date="1539232757305" expanded="true" signature="13:18" ph="..." />
-                <marker date="1539232757305" expanded="true" signature="85:90" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -110,11 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commons/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-              <folding>
-                <marker date="1539317412545" expanded="true" signature="58:63" ph="..." />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -131,11 +142,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/strings/MyString.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="79" column="28" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
-              <folding>
-                <marker date="1539692423741" expanded="true" signature="528:591" ph="..." />
-              </folding>
+            <state relative-caret-position="-67">
+              <caret line="106" column="29" lean-forward="true" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -161,10 +169,6 @@
         <option value="$PROJECT_DIR$/operators.py" />
         <option value="$PROJECT_DIR$/control_statement/if_controls.py" />
         <option value="$PROJECT_DIR$/control_statement/loops.py" />
-        <option value="$PROJECT_DIR$/oops/MyClass.py" />
-        <option value="$PROJECT_DIR$/oops/inheritance.py" />
-        <option value="$PROJECT_DIR$/basics/operators.py" />
-        <option value="$PROJECT_DIR$/commons/utils.py" />
         <option value="$PROJECT_DIR$/strings/MyString.py" />
       </list>
     </option>
@@ -191,44 +195,22 @@
         <subPane>
           <expand>
             <path>
-              <item name="pythontraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythontraining" type="462c0819:PsiDirectoryNode" />
+              <item name="python_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_training" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="pythontraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythontraining" type="462c0819:PsiDirectoryNode" />
-              <item name="basics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythontraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythontraining" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythontraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythontraining" type="462c0819:PsiDirectoryNode" />
-              <item name="control_statement" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythontraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythontraining" type="462c0819:PsiDirectoryNode" />
-              <item name="oops" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythontraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythontraining" type="462c0819:PsiDirectoryNode" />
+              <item name="python_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_training" type="462c0819:PsiDirectoryNode" />
               <item name="strings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="pythontraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythontraining" type="462c0819:PsiDirectoryNode" />
+              <item name="python_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_training" type="462c0819:PsiDirectoryNode" />
               <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="pythontraining" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythontraining" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="python_training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -239,8 +221,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -259,30 +240,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MyString">
-    <configuration name="MyClass" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythontraining" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oops" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oops/MyClass.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MyString" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.MyString (1)">
+    <configuration name="MyString (1)" type="PythonConfigurationType" factoryName="Python">
       <module name="pythontraining" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -304,6 +263,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="MyString" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythontraining" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/strings" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\duraiv2\PycharmProjects\pythontraining\basics\literals.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="if_controls" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythontraining" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oops" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/control_statement/if_controls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="if_controls" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythontraining" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -316,8 +319,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/control_statement/if_controls.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/control_statement/loops.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -339,7 +341,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oops/inheritance.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\duraiv2\PycharmProjects\pythontraining\basics\operators.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -361,7 +363,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/control_statement/loops.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\duraiv2\PycharmProjects\pythontraining\basics\variables.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -371,9 +373,9 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.MyString (1)" />
       <item itemvalue="Python.if_controls" />
       <item itemvalue="Python.loops" />
-      <item itemvalue="Python.MyClass" />
       <item itemvalue="Python.inheritance" />
       <item itemvalue="Python.MyString" />
     </list>
@@ -381,7 +383,6 @@
       <list>
         <item itemvalue="Python.MyString" />
         <item itemvalue="Python.inheritance" />
-        <item itemvalue="Python.MyClass" />
         <item itemvalue="Python.loops" />
         <item itemvalue="Python.if_controls" />
       </list>
@@ -423,22 +424,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49671772" visible="true" weight="0.24832214" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49671772" visible="true" weight="0.25503355" />
       <window_info id="Structure" order="1" sideWeight="0.50328225" side_tool="true" weight="0.23489933" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932885" weight="0.32991204" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49463087" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49395972" weight="0.32991204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49798658" weight="0.32991204" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5053691" side_tool="true" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5060403" side_tool="true" visible="true" weight="0.32991204" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49932885" weight="0.32991204" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -477,13 +477,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/1392707958/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-979">
-          <caret line="4212" column="8" selection-start-line="4212" selection-start-column="8" selection-end-line="4212" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/1392707958/builtins.py" />
     <entry file="file://$PROJECT_DIR$/control_statement/if_controls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -502,11 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <marker date="1539231987856" expanded="true" signature="14:19" ph="..." />
-            <marker date="1539231987856" expanded="true" signature="46:51" ph="..." />
-            <marker date="1539231987856" expanded="true" signature="165:170" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -514,10 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
-          <folding>
-            <marker date="1539232757305" expanded="true" signature="13:18" ph="..." />
-            <marker date="1539232757305" expanded="true" signature="85:90" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -530,11 +515,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/commons/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-          <folding>
-            <marker date="1539317412545" expanded="true" signature="58:63" ph="..." />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -547,11 +529,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/strings/MyString.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="79" column="28" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
-          <folding>
-            <marker date="1539692423741" expanded="true" signature="528:591" ph="..." />
-          </folding>
+        <state relative-caret-position="-67">
+          <caret line="106" column="29" lean-forward="true" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="29" />
         </state>
       </provider>
     </entry>
