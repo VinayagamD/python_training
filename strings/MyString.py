@@ -63,10 +63,9 @@ print(str[2:len(str)])
 print(str[3:])
 
 str = "Mahesh"
-print(str[:6]+str[6:])
+print(str[:6] + str[6:])
 
 my_string_message("Slicing", "ends")
-
 
 # String Function and methods
 my_string_message("Function and methods")
@@ -116,7 +115,7 @@ str1 = "Python47"
 print(str1.isalnum())
 
 # isalpha
-string1 = "HelloPython"   # Even space is not allowed
+string1 = "HelloPython"  # Even space is not allowed
 print(string1.isalpha())
 string2 = "This is Python2.7.4"
 print(string2.isalpha())
@@ -127,7 +126,6 @@ print(string1.isdigit())
 string2 = "98564738"
 print(string2.isdigit())
 
-
 # find
 substr1 = "come"
 substr2 = "to"
@@ -135,9 +133,6 @@ print(string1.find(substr1))
 print(string1.find(substr2))
 print(string1.find(substr1, 3, 10))
 print(string1.find(substr2, 17))
-
-
-
 
 # isAlpha
 string1 = "HelloPython"  # Even Space is not allowed
@@ -149,7 +144,6 @@ print(string2.isalpha())
 print(string1.isdigit())
 string2 = "9342831532"
 print(string2.isdigit())
-
 
 # islower
 string1 = "Hello Python"
@@ -184,7 +178,27 @@ print(string1.upper())
 string2 = "welcome to VTU"
 print(string2.upper())
 
+# startswith
+string1 = "Hello Python"
+print(string1.startswith('Hello'))
+string2 = "welcome to VTU"
+print(string2.startswith('come', 3, 7))
+
+
+# swap case
+print(string1.swapcase())
+print(string2.swapcase())
+
+# lstrip
+string1 = "        Hello Python"
+print(string1.lstrip())
+string2 = "@@@@@@@@@@@@@@@@@@@@welcome to VTU"
+print(string2.lstrip('@'))
+
+# rstrip
+string1 = "          Hello Python         "
+print(string1.rstrip())
+string2 = "@welcome to VTU!!!!!!"
+print(string2.rstrip('!'))
 
 my_string_message("Function and methods", "ends")
-
-
