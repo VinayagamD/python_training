@@ -132,6 +132,75 @@ print(cmp(list2, list1))
 print(cmp(list3, list1))
 my_string_message("cmp", "end")
 
+# index
+my_string_message("index")
+data = [786, 'abc', 'a', 123.5]
+print("Index of 123.5:======>", data.index(123.5))
+print("Index of a is :======>", data.index('a'))
+my_string_message("index", "end")
+
+
+# count
+my_string_message("count")
+data = [786, 'abc', 'a', 123.5, 786, 'rahul', 'b', '786']
+print(" Number of times 123.5 occurred is: ", data.count(128.5))
+print(" Number of times 786 occurred is: ", data.count(786))
+my_string_message("count", "end")
+
+# pop
+my_string_message("pop")
+data = [786, 'abc', 'a', 123.5, 786]
+print("Last element is : ", data.pop())
+print("2nd position element is : ", data.pop(1))
+print(data)
+my_string_message("pop", "end")
+
+# insert
+my_string_message("insert")
+data = ['abc', 123, 10.5, 'a']
+print(" Data before insert : =====> ", data)
+data.insert(2, 'hello')
+print(" Data after insert : =========> ", data)
+my_string_message("insert", "end")
+
+# extend
+my_string_message("extend")
+data1 = ['abc', 123, 10.5, 'a']
+data2 = ['ram', 541]
+data1.extend(data2)
+print(data1)
+print(data2)
+my_string_message("extend", "end")
+
+# remove
+my_string_message("remove")
+data1 = ['abc', 123, 10.5, 'a', 'xyz']
+data2 = ['ram', 541]
+print("Data1:=============>")
+print("Before Remove :", data1)
+data1.remove('xyz')
+print("After Remove : ", data1)
+print("Data2:=============>")
+print("Before Remove :", data2)
+data2.remove('ram')
+print("After Remove : ", data2)
+
+my_string_message("remove", "end")
+
+# reverse
+my_string_message("reverse")
+list1 = [10, 20, 30, 40, 50]
+list1.reverse()
+print(list1)
+my_string_message("reverse", "end")
+
+# sort
+my_string_message("sort")
+list1 = [10, 50, 13]
+list1.sort()
+print(list1)
+my_string_message("sort", "end")
+
 my_string_message("Python List operator", line='end')
 
 
