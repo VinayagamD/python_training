@@ -72,7 +72,7 @@ print(tuple2*3)
 my_tuple_message(" Replicating Tuple", "end")
 
 my_tuple_message(" Tuple Operation", "end")
-
+Utils.print_divider()
 # Python tuple Slicing
 my_tuple_message("tuple slicing")
 data1 = (1, 2, 4, 5, 7)
@@ -94,6 +94,7 @@ data3 = data1+data2
 print(data3)
 my_tuple_message(" Tuple Other Operation", "end")
 
+Utils.print_divider()
 # deleting tuple
 my_tuple_message(" deleting ")
 data = (10, 20, 'rahul', 40.6, 'z')
@@ -101,3 +102,33 @@ print(data)
 del data
 # print(data)
 my_tuple_message(" deleting ", "end")
+
+Utils.print_divider()
+
+# Functions of Tuple
+my_tuple_message(" Functions")
+
+# min
+my_tuple_message("min")
+data = (10, 20, 40.6)
+print(min(data))
+my_tuple_message("min", "end")
+
+# max
+my_tuple_message("max")
+print(max(data))
+my_tuple_message("max", "end")
+
+# len
+my_tuple_message("len")
+print(len(data))
+my_tuple_message("len", "end")
+
+# sequence
+my_tuple_message("sequence")
+dat = [10, 20, 30, 40]
+data = tuple(dat)
+print(data)
+my_tuple_message("sequence", "end")
+
+my_tuple_message(" Functions", "end")
