@@ -22,6 +22,7 @@ exception_message("Definition", "end")
 Utils.print_divider()
 # Except with no exception
 exception_message("Except with no exception")
+
 try:
     a = 10 / 0
 except:
