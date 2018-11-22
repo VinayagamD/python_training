@@ -43,3 +43,10 @@ timerequired = time.strptime("26 Jun 14", "%d %b %y")
 print(timerequired)
 dates_message("strptime", "end")
 
+# gtime
+dates_message("gtime")
+print(time.gmtime())
+dates_message("gtime", "end")
+
+# mktime
+
