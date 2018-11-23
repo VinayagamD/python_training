@@ -49,4 +49,15 @@ print(time.gmtime())
 dates_message("gtime", "end")
 
 # mktime
+dates_message("mktime")
+t = (2014, 2, 17, 17, 3, 38, 1, 48, 0)
+seconds = time.mktime(t)
+print(seconds)
+dates_message("mktime", "end")
+
+# strftime
+dates_message("strftime")
+print(time.strftime("%b %d %y %H:%M:%S",time.gmtime(seconds)))
+dates_message("strftime", "end")
+
 
