@@ -3,9 +3,9 @@ Basic Python Practise
 
 ## Enviroment:
 **SDK**<br>
-  _Python_:https://www.python.org/downloads/ <br>
+  [_Python_:](https://www.python.org/downloads/) <br>
 **IDE** <br>
- _Pycharm Community Edition_:https://www.jetbrains.com/pycharm/download/<br>
+ [_Pycharm Community Edition_:](https://www.jetbrains.com/pycharm/download/)<br>
  
 __ This repo consist of bsics of python __
 
